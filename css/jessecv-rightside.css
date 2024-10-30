@@ -1,0 +1,124 @@
+.my-name {
+  font-family: Poppins, Arial;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: 0px;
+}
+
+.role {
+  font-family: Inter, Arial;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  margin-bottom: 90px;
+}
+
+.profile-text2 {
+  font-family: Poppins, Arial;
+  font-size: 20px;
+  font-weight: 500;
+  border-bottom: 2px solid rgb(18, 18, 18);
+  padding-bottom: 2px;
+}
+
+.right-side-grid {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 100px;
+  
+}
+
+.icon2 {
+  width: 37px;
+  height: 35px;
+  border-radius: 18px;
+  margin-top: -165px;
+}
+
+.icon4 {
+  width: 37px;
+  height: 35px;
+  border-radius: 18px;
+  margin-top: -350px;
+}
+
+.right-side-layout{
+  display: flex;
+  flex-direction: column;
+}
+
+.role-job-layout {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+}
+
+.role-job {
+  font-family: Inter, Arial;
+  font-size: 18.5px;
+  text-align: center;
+}
+
+.role-bio {
+  font-family: Open Sans, Arial;
+  text-align: left;
+  margin-bottom: 30px;
+  line-height: 22px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(2, 2, 44);
+  padding-bottom: 70px;
+}
+
+.containers {
+  display: flex;
+}
+
+.box {
+  width: 100%;
+  height: 80px;
+}
+
+.deep-blue {
+  background-color: #0cb1e7; 
+}
+
+.light-blue {
+  background-color: #a1d7e9; 
+}
+
+.enquiries-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -30px;
+}
+
+.enquiries {
+  font-family: Poppins, Arial;
+  margin-bottom: -5px;
+  color: rgb(231, 227, 227);
+}
+
+.icon3 {
+  width: 53px;
+  height: 50px;
+  border-radius: 27px;
+  cursor: pointer;
+}
+
+@media (max-width: 480px) {
+
+  .my-name {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+  }
+}
