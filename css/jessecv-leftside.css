@@ -107,9 +107,6 @@
 }
 
 @media (max-width: 992px) {
-  .body {
-    overflow: hidden;
-  }
   .resume-container {
     display: flex;
     flex-direction: column;
@@ -117,6 +114,20 @@
 
   .left-side, .right-side {
     width: 100%;
+    padding: 0px;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    width: 100%;
+    overflow: hidden;
+  }
+ 
+  .enquiries-layout {
+    gap: 10px;
+    margin-bottom: 50px;
   }
 }
 
