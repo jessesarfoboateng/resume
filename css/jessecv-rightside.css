@@ -57,10 +57,19 @@
   font-weight: 500;
 }
 
-.role-job {
+.role-job-first{
   font-family: Inter, Arial;
   font-size: 18.5px;
-  text-align: center;
+}
+
+.role-job-second{
+  font-family: Inter, Arial;
+  font-size: 18.5px;
+} 
+
+.role-job-third {
+  font-family: Inter, Arial;
+  font-size: 18.5px;
 }
 
 .role-bio {
@@ -112,13 +121,4 @@
   height: 50px;
   border-radius: 27px;
   cursor: pointer;
-}
-
-@media (max-width: 480px) {
-
-  .my-name {
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
-  }
 }
