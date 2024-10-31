@@ -112,6 +112,11 @@
     flex-direction: column;
   }
 
+  .my-picture {
+    margin-top: 15px;
+    margin-bottom: 35px;
+  }
+
   .left-side, .right-side {
     width: 100%;
     padding: 0px;
@@ -125,13 +130,12 @@
     margin-right: 10px;
   }
 
-
   .footer {
     display: flex;
     flex-direction: column;
     padding-top: 50px;
     width: 100%;
-    overflow: hidden;
+    
   }
  
   .enquiries-layout {
