@@ -13,6 +13,10 @@
     width: 100%;
     padding: 0px;
   }
+
+  .left-side {
+    padding-bottom: 30px;
+  }
   
   .skills, .profile-topic, .hobby-layout, .profile-info {
     margin-left: 10px;
@@ -85,5 +89,6 @@
   .containers {
     display: none;
   }
+
 
 }

@@ -106,3 +106,22 @@
   font-family: Open Sans, Arial;
 }
 
+.project-layout {
+  margin-left: 40px;
+}
+
+.project-title {
+  font-family: Inter, Arial;
+  font-weight: 500;
+}
+
+.project-link {
+  font-family: Open Sans, Arial;
+  transition: color 0.6s;
+}
+
+.project-link:hover {
+  color: gray;
+}
+
+
